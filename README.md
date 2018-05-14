@@ -6,4 +6,4 @@ The two versions can be viewed side by side on [this page] (ReadaBill-SXStext.ht
 
 This version follows the pagination in the existing (PDF) document. It doesn't show the section breaks that I'm using for the web version or any other layout changes - these are textual changes only. 
 
-These initial edits are fairly cosmetic, but I can easily make bigger changes (such as switching out the examples) if the reviewers think that would be better.
+These initial edits are minimal and mostly cosmetic, but I can easily make bigger revisions (such as switching out the examples) if the reviewers so advise.
