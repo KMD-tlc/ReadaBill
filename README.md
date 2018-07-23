@@ -1,8 +1,8 @@
 # ReadaBill
 Web-based revision of Reading Statutes and Bills publication
 
-The existing (2015) text of the PDF document and a lightly revised version of the same text can be viewed side by side [here](https://kmd-tlc.github.io/ReadaBill/ReadaBill-SXStext.html). Markup and comments can be added to the corresponding printout in the physical folder.
+The text of this version has been through Policy review. The HTML and CSS, though, should be considered no more than an experiment that I used to try out some presentation ideas - it has NOT been formally reviewed, although a few people have seen it. 
 
-This particular web version follows the pagination in the existing (PDF) document. It doesn't show the section breaks that I'm using for the prettier web version or any other layout changes - these are textual changes only. 
+I used Bootstrap 4.0 to save time and because I'm obviously an amateur. Slapping my own stylesheet on top of Bootstrap's is probably not the most gorgeous thing ever, but it seemed like overkill to do anything else (recompile SASS or whatever) for experimental purposes. The somewhat crude multi-page structure might not be to everyone's taste, either. I thought 20+ pages of text was a bit much for a single page. 
 
-The initial edits are minimal and mostly cosmetic, but I can easily make bigger revisions (such as switching out the examples) if the reviewers so advise.
+Here are some specific things that I know need help. No doubt there are plenty of others.
