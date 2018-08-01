@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+      <link href="ReadaBill-Bootstrap.css" rel="stylesheet">
+      <title>Reading Statutes and Bills - Bootstrap 4 multi-page version</title>
+   </head>
+
+   <body>
+
+      <div class="jumbotron jumbotron-fluid">
+         <div class="container">
+            <div class="row align-items-center justify-content-center">
+               <img src="images/glasses3.svg" height="200px" width="275px">
+               <h1 class="display-4 text-center">Reading Statutes and Bills</h1>
+            </div>
+         </div>
+      </div>
+
+      <div class="container-fluid"><!--MAIN CONTAINER-->
+
+      <div class="row"><!--MAIN row p5-->
+
+      <div class="col col-md-3 col-xl-2"><!--NAV-->
+
+         <nav class="nav flex-column justify-content-start text-dark">
+            <ul id="big-nav-1" class="list-unstyled">
+               <li class="nav-item">
+                  <a class="nav-link" href="home.html">Statutes vs Bills</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-statutes">Statutes</a>
+                  <div id="nav-statutes" class="collapse">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link" href="Readabill-2.html">Collections &amp; Organization</a></li>
+                        <li><a class="nav-link" href="ReadaBill-3.html">Parts of a Statute</a></li>
+                        <li><a class="nav-link" href="ReadaBill-4.html">How to Read a Statute</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-bills">Bills</a>
+                  <div id="nav-bills">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link active" href="#">Bills Overview</a></li>
+                        <li><a class="nav-link" href="ReadaBill-6.html">Parts of a Bill-A</a></li>
+                        <li><a class="nav-link" href="ReadaBill-7.html">Parts of a Bill-B</a></li>
+                        <li><a class="nav-link" href="ReadaBill-8.html">How to Read a Bill</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="ReadaBill-9.html">Putting It All Together</a>
+               </li>
+
+               <li>
+                  <a class="nav-link" href="ReadaBill-10.html">Resources</a>
+               </li>
+            </ul>
+         </nav>
+
+      </div><!--END NAV-->
+
+         <div class="col"><!--TEXT p5-->
+
+            <h3>Bills</h3>
+
+               <div class="row align-items-start">
+                  <div class="col col-sm-6">
+                     <p>The <a href="http://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.3.htm#3.30">Texas Constitution</a> establishes the bill as the exclusive means by which the legislature may enact, amend, or repeal a statute.</p>
+                  </div>
+
+                  <div class="col col-sm-6">
+                     <p>The <a href="http://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.3.htm#3.35">Constitution</a> also prescribes the one-subject rule:
+                  </div>
+               </div>
+
+               <div class="row align-items-center">
+                  <div class="col col-sm-6">
+                     <blockquote class="blockquote text-dark">
+                        <p>No law shall be passed, except by bill.</p>
+                        <footer class="blockquote-footer"><cite>Article III, Section 30, Texas Constitution</cite></footer>
+                     </blockquote>
+                  </div>
+
+                  <div class="col col-sm-6">
+                     <blockquote class="blockquote text-dark">
+                        <p>No bill, (except general appropriation bills ...) shall contain more than one subject.</p>
+                        <footer class="blockquote-footer"><cite>Article III, Section 35, Texas Constitution</cite></footer>
+                     </blockquote>
+                  </div>
+               </div>
+
+               <p>The reasons for the one-subject rule are to ensure that a legislative proposal stands on its own merits and is not combined with unrelated proposals, to prevent unrelated provisions from being added to a bill without being fully vetted, and to keep individual bills from becoming overly complex or massive.</p>
+               <p>A bill containing more than one subject is subject to a point of order, and a law enacted in violation of the one-subject rule is subject to attack in court. However, the rule does not prohibit <a href="#" data-toggle="tooltip" title="An omnibus bill deals with various proposals relating to a particular subject or theme.">omnibus bills</a> if every provision relates to a single subject.</p>
+
+            <h4>Bill Sections and Articles</h4>
+            <p>Most bills are organized into sections that are numbered consecutively and in all capital letters, beginning with SECTION 1.</p>
+            <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#sections-1">Example</button>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="collapse" id="sections-1">
+                     <div class="card">
+                        <div class="card-body">
+                           <div class="card-text text-ex" style="text-indent: 2rem;">
+                              <p><mark>SECTION 1</mark>. Section 134.014, Agriculture Code, is amended to read as follows:</p>
+                              <p>Sec. 134.014. LICENSE FEES<span class="added">; WAIVERS. (a)</span> The department . . . .</p>
+                              <p><mark>SECTION 2</mark>. Section 66.077, Parks and Wildlife Code, is amended by adding Subsection (c-1) to read as follows:</p>
+                              <p style="text-indent: 4rem;"><span class="added">(c-1) The commission</span> . . . .</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <p>Articles may be used to organize long bills by grouping related bill sections. Like bill sections, bill articles appear in all capital letters.</p>
+            <p>The all-capital-letter format helps distinguish bill sections and articles from the statutory sections and articles being amended by the bill. Bill sections that make substantive changes to statute sections are typically ordered alphabetically by code name, then numerically within each code.</p>
+            <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#articles-1">Example</button>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="collapse" id="articles-1">
+                     <div class="card">
+                        <div class="card-body">
+                           <h4 class="card-title title-ex text-center">
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="top" data-html="true"
+                                 data-content="<p><strong>Bill article</strong></p>">
+                                 <mark>ARTICLE 1.</mark></a> DEPARTMENT OF BANKING</h4>
+                           <div class="card-text text-ex" style="text-indent: 2rem;">
+                              <p>
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="left" data-html="true"
+                                 data-content="<p><strong>Bill section</strong></p>">
+                                    <mark class="secondary">SECTION 1.01.</mark></a> Section 12.101,
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<p>Finance Code comes alphabetically before Government Code.</p>">
+                                    <mark class="mark3">Finance Code</mark></a>, is amended to read as follows:</p>
+                              <p>
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="left" data-html="true"
+                                 data-content="<p><strong>Statutory section</strong> being amended</p>">
+                                    <mark class="mark3">Sec. 12.101.</mark></a> BANKING COMMISSIONER. <span class="added">(a) The banking commissioner</span> . . . .</p><br>
+                           </div>
+                           <h4 class="card-title title-ex text-center">
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="top" data-html="true"
+                                 data-content="<p><strong>Bill article</strong></p>">
+                                 <mark>ARTICLE 2.</mark></a> COMPTROLLER OF PUBLIC ACCOUNTS</h4>
+                           <div class="card-text text-ex" style="text-indent: 2rem;">
+                              <p>
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="left" data-html="true"
+                                    data-content="<p><strong>Bill section</strong></p>">
+                                    <mark class="secondary">SECTION 2.01.</mark></a>
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<p>These Government Code sections to be amended are ordered numerically.</p>">
+                                    <mark class="mark3">Sections 2151.002, 2151.003, and 2151.004</mark></a>, Government Code, are amended to read as follows:</p>
+                              <p><a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="left" data-html="true"
+                                 data-content="<p><strong>Statutory section</strong> being amended</p>">
+                                 <mark class="mark3">Sec. 2151.002.</mark></a> <span class="added">DEFINITION</span> [<span class="deleted">DEFINITIONS</span>]. . . .</p>
+                           </div>
+                        </div>
+                        <div class="card-footer card-theme3 text-dark">
+                           <p>Click on the highlighted portions to see comments on this example.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <p>Bill sections containing procedural provisions follow the substantive provisions.</p>
+
+            <h4>Formatting Conventions</h4>
+
+            <h5>Amendable Unit</h5>
+            <p><a href="http://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.3.htm#3.36">Section 36, Article III, Texas Constitution</a>, prohibits the blind amendment of the law, meaning the amendment of a law without fully revealing what is being changed.</p>
+
+            <p>Consequently, a bill must include at least an <strong>amendable unit</strong> - the text of the law being amended must be quoted at sufficient length to indicate the purpose of the change and express a complete thought. In Texas, the threshold for an amendable unit is a complete sentence.</p>
+            <button class="btn btn-theme1" type="button" data-toggle="collapse" data-target="#amendable-unit">Hypothetical example</button>
+            <button class="btn btn-theme2" type="button" data-toggle="collapse" data-target="#further-amendable-unit">+ More</button>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="collapse" id="amendable-unit">
+                     <div class="card">
+                        <div class="card-body">
+                           <div class="card-text text-ex">
+                              <p style="text-indent: 2rem;">Section 42.004, Education Code, is amended by deleting "in accordance with the rules of the State Board of Education."</p>
+                           </div>
+                        </div>
+                        <div class="card-footer" style="background-color: #417c7e">
+                           <p>A bill worded in this way would violate the amendable unit principle.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-sm-10">
+                  <div class="collapse" id="further-amendable-unit">
+                     <div class="card card-theme2 border-dark">
+                        <div class="card-body text-dark">
+                           <div class="card-text">
+                              <p>For a complete discussion of amendments to existing law, see Section 3.10 of the <a href="http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf"><em>Texas Legislative Council Drafting Manual</em></a>.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <h5>Presentation of Amendments</h5>
+            <p>Bills can amend statutes by adding new language or changing or deleting existing language. Bill provisions that directly amend an existing statute must follow two formatting conventions:
+            <ol>
+               <li><p>The language describing the statute being amended, also called the <strong>recital</strong>, must refer to the official citation of that statute.</p>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#recital">Example</button>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="recital">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex" style="text-indent: 2rem;">
+                                    <p>SECTION 1. <mark>Section 1702.169, Occupations Code</mark>, is amended to read as follows:</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+
+               <li><p>Rules of the senate and house of representatives have traditionally required new language to be underlined and deleted language to be stricken through and bracketed so the reader can compare the current version of the law with the proposed version.</p>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#underline-strikethrough">Example</button>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="underline-strikethrough">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex" style="text-indent: 2rem;">
+                                    <p>SECTION 1. Section 753.004, Health and Safety Code, is amended by amending Subsection (d) and adding Subsection (d-1) to read as follows:</p>
+                                    <p>(d) <span class="added">Except as provided by Subsection (d-1), gasoline</span> [<span class="deleted">Gasoline</span>], diesel fuel, or kerosene may be stored in an aboveground storage tank [<span class="deleted">with a capacity of not more than 4,000 gallons</span>] at a retail service station located in an unincorporated area or in a municipality with a population of less than 5,000.</p>
+                                    <p><span class="added">(d-1) A commissioners court of a county with a population of 3.3 million or more may by order limit the maximum volume of an aboveground storage tank in an unincorporated area of the county in accordance with the county fire code.</span></p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </li>
+            </ol></p>
+
+            <div class="row align-items-end"><!--PAGINATION-->
+               <div class="col">
+                  <nav aria-label="Page navigation">
+                     <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="home.html">&laquo;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-4.html">&lt;</a></li>
+                        <li class="page-item"><a class="page-link active" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-6.html">&gt;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-10.html">&raquo;</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div><!--END PAGINATION-->
+
+         </div><!--END TEXT p5-->
+
+      </div><!--END MAIN row p5-->
+
+      </div><!--END main container-->
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <script>
+         $(function () {
+            $('[data-toggle="popover"]').popover();
+         })
+      </script>
+
+   </body>
+</html>

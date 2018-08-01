@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+      <link href="ReadaBill-Bootstrap.css" rel="stylesheet">
+      <title>Reading Statutes and Bills - Bootstrap 4 multi-page version</title>
+   </head>
+
+   <body>
+
+      <div class="jumbotron jumbotron-fluid">
+         <div class="container">
+            <div class="row align-items-center justify-content-center">
+               <img src="images/glasses3.svg" height="200px" width="275px">
+               <h1 class="display-4 text-center">Reading Statutes and Bills</h1>
+            </div>
+         </div>
+      </div>
+
+      <div class="container-fluid"><!--MAIN CONTAINER-->
+
+      <div class="row"><!--MAIN row 3-->
+
+      <div class="col col-md-3 col-xl-2"><!--NAV-->
+
+         <nav class="nav flex-column justify-content-start text-dark">
+            <ul id="big-nav-1" class="list-unstyled">
+               <li class="nav-item">
+                  <a class="nav-link" href="home.html">Statutes vs Bills</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-statutes">Statutes</a>
+                  <div id="nav-statutes">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link" href="Readabill-2.html">Collections &amp; Organization</a></li>
+                        <li><a class="nav-link active" href="#">Parts of a Statute</a></li>
+                        <li><a class="nav-link" href="ReadaBill-4.html">How to Read a Statute</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-bills">Bills</a>
+                  <div id="nav-bills" class="collapse">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link" href="ReadaBill-5.html">Bills Overview</a></li>
+                        <li><a class="nav-link" href="ReadaBill-6.html">Parts of a Bill-A</a></li>
+                        <li><a class="nav-link" href="ReadaBill-7.html">Parts of a Bill-B</a></li>
+                        <li><a class="nav-link" href="ReadaBill-8.html">How to Read a Bill</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="ReadaBill-9.html">Putting It All Together</a>
+               </li>
+
+               <li>
+                  <a class="nav-link" href="ReadaBill-10.html">Resources</a>
+               </li>
+            </ul>
+         </nav>
+
+      </div><!--END NAV-->
+
+         <div class="col"><!--TEXT pg 3-->
+            <h3 id="statute-parts">Parts of a Statute</h3>
+            <p>Statutes vary in their internal structure and may include some or all of the following parts:</p>
+
+            <ul>
+               <li>
+                  <h4 id="statute-st">Short Title</h4>
+                  <p>A short title is sometimes included to provide a convenient way of citing a major, cohesive body of law that deals comprehensively with a subject.</p>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#short-title">Example</button>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="short-title">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex">
+                                    <p style="text-indent: 2rem;">Sec. 58.001. SHORT TITLE. This chapter may be cited as the Texas Agricultural Finance Act.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </li>
+
+               <li>
+                  <h4 id="statute-intent">Statement of Policy or Purpose</h4>
+                  <p>A statement of policy or purpose may be included when a substantial body of new law is enacted.</p>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#purpose-st">Example</button>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="purpose-st">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex">
+                                    <p style="text-indent: 2rem;">Sec. 773.201. LEGISLATIVE INTENT. The legislature finds that a strong system for stroke survival is needed in the state's communities in order to treat stroke victims in a timely manner and to improve the overall treatment of stroke victims. Therefore, the legislature intends to construct an emergency treatment system in this state so that stroke victims may be quickly identified and transported to and treated in appropriate stroke treatment facilities.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </li>
+
+               <li>
+                  <h4 id="statute-defs">Definitions</h4>
+                  <p>A statute may include an entire section dedicated to definitions of terms that apply to a code, a title, a chapter, or a subchapter. Alternatively, it may include a subsection defining terms that apply only to that statutory section.</p>
+               </li>
+
+               <li>
+                  <h4 id="statute-op-provs">Principal Operative Provisions</h4>
+                  <p>This broad category includes both provisions that relate to the creation, organization, powers, and procedures of the governmental units that enforce the law and provisions that grant or impose on a class of persons rights, duties, powers, and privileges and may govern conduct by establishing either a mandate or a prohibition.</p>
+               </li>
+
+               <li>
+                  <h4 id="statute-enf-provs">Enforcement Provisions</h4>
+                  <p>An enforcement provision generally establishes a criminal penalty, a civil penalty, an administrative penalty, injunctive relief, or civil liability as a consequence of violating a mandate or a prohibition.</p>
+               </li>
+            </ul>
+
+            <div class="row align-items-end"><!--PAGINATION-->
+               <div class="col">
+                  <nav aria-label="Page navigation">
+                     <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="home.html">&laquo;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-2.html">&lt;</a></li>
+                        <li class="page-item"><a class="page-link active" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-4.html">&gt;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-10.html">&raquo;</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div><!--END PAGINATION-->
+
+         </div><!--END TEXT 3-->
+
+      </div><!--END MAIN row 3-->
+
+      </div><!--END main container-->
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <script>
+         $(function () {
+            $('[data-toggle="popover"]').popover();
+         })
+      </script>
+
+   </body>
+</html>

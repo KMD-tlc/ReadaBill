@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+      <link href="ReadaBill-Bootstrap.css" rel="stylesheet">
+      <title>Reading Statutes and Bills - Bootstrap 4 multi-page version</title>
+   </head>
+
+   <body>
+
+      <div class="jumbotron jumbotron-fluid">
+         <div class="container">
+            <div class="row align-items-center justify-content-center">
+               <img src="images/glasses3.svg" height="200px" width="275px">
+               <h1 class="display-4 text-center">Reading Statutes and Bills</h1>
+            </div>
+         </div>
+      </div>
+
+      <div class="container-fluid"><!--MAIN CONTAINER-->
+
+      <div class="row"><!--MAIN row p2-->
+
+      <div class="col col-md-3 col-xl-2"><!--NAV-->
+
+         <nav class="nav flex-column justify-content-start text-dark">
+            <ul id="big-nav-1" class="list-unstyled">
+               <li class="nav-item">
+                  <a class="nav-link" href="home.html">Statutes vs Bills</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-statutes">Statutes</a>
+                  <div id="nav-statutes">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link active" href="Readabill-2.html">Collections &amp; Organization</a></li>
+                        <li><a class="nav-link" href="ReadaBill-3.html">Parts of a Statute</a></li>
+                        <li><a class="nav-link" href="ReadaBill-4.html">How to Read a Statute</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-bills">Bills</a>
+                  <div id="nav-bills" class="collapse">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link" href="ReadaBill-5.html">Bills Overview</a></li>
+                        <li><a class="nav-link" href="ReadaBill-6.html">Parts of a Bill-A</a></li>
+                        <li><a class="nav-link" href="ReadaBill-7.html">Parts of a Bill-B</a></li>
+                        <li><a class="nav-link" href="ReadaBill-8.html">How to Read a Bill</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="ReadaBill-9.html">Putting It All Together</a>
+               </li>
+
+               <li>
+                  <a class="nav-link" href="ReadaBill-10.html">Resources</a>
+               </li>
+            </ul>
+         </nav>
+
+      </div><!--END NAV-->
+
+         <div class="col col-md-9 col-xl-10"><!--TEXT p2-->
+            <h3>Statute Collections</h3>
+            <p>Current Texas statutes can be found in at least one of three collections:</p>
+            <ul>
+               <li><h4><em>Vernon's Texas Civil Statutes</em></h4></li>
+                  <button class="btn btn-theme1" type="button" data-toggle="collapse" data-target="#vernons">+ More</button>
+
+                  <div class="collapse" id="vernons">
+                     <div class="card card-theme1 border-dark">
+                        <div class="card-body">
+                           <div class="card-text">
+                              <p>A 1925 revision of Texas statutes organized the statutes into a unified body of law, in which each statute was titled and assigned a sequential article number that corresponded with its alphabetized title. This organization was published in a series of volumes known as <em>Vernon's Texas Civil Statutes</em>.</p>
+                              <p>Subsequent additions to the law were incorporated into the 1925 organization, and to maintain the integrity of the statutes' numerical and alphabetical arrangement, the publisher often added letters to the end of article designations for new laws relating to the same subject matter. Eventually the reference system became confusing.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               <li><h4>Topical codes</h4></li>
+               <button class="btn btn-theme2" type="button" data-toggle="collapse" data-target="#topical">+ More</button>
+
+                  <div class="collapse" id="topical">
+                     <div class="card card-theme2 border-dark">
+                        <div class="card-body text-dark">
+                           <div class="card-text">
+                              <p>In 1963 the legislature charged the Texas Legislative Council with conducting an ongoing nonsubstantive revision of the 1925 statutes. Under the revision program, the statutes are arranged into topical codes and numbered using a system that accommodates future expansion of the law. Repealed, invalid, and duplicative provisions are eliminated.</p>
+                              <p>Most Texas statutes today are found in the resulting 27 topical codes. The few 1925 statutes that have not been incorporated into a code may still be found in <em>Vernon's Texas Civil Statutes</em>.</p>
+                              <button class="btn btn-sm btn-theme2" type="button" data-toggle="collapse" data-target="#codes-shelf">Click to see the topical codes below</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               <div id="codes-shelf" class="collapse">
+                  <img src="images/codes.svg" class="img-fluid">
+               </div>
+
+               <li><h4>Session laws</h4></li>
+               <button class="btn btn-theme3" type="button" data-toggle="collapse" data-target="#session-laws">+ More</button>
+
+                  <div class="collapse" id="session-laws">
+                     <div class="card card-theme3 border-dark">
+                        <div class="card-body text-dark">
+                           <div class="card-text">
+                              <p>Session laws are the compilation of the laws enacted during a particular legislative session. Bills that are passed during each legislative session and not vetoed by the governr are assigned a session law chapter number by the secretary of state. The number corresponds with the order in which the enacted bill is filed with the secretary of state and is often used to identify a specific bill from a specific session: for example, <a href="http://www.lrl.state.tx.us/scanned/sessionLaws/74-0/HB_1125_CH_981.pdf">Chapter 981 (H.B. 1125), Acts of the 74th Legislature, Regular Session, 1995</a>. Bills from each legislative session are compiled in order of chapter number and published as the <em>General and Special Laws</em> for that session.</p>
+                              <p>Most bills amend the topical codes or <em>Vernon's Texas Civil Statutes</em>. Some bills, however, enact new law without reference to a civil statute or code section and can be found in the session laws.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+            </ul>
+
+            <h3 id="internal-org-header">Internal Organization</h3>
+
+            <p>Most codes are organized using a standard scheme, which is based on sections. Gaps in chapter and section numbering usually exist for future expansion.</p>
+            <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#code-hierarchy">Example</button>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="collapse" id="code-hierarchy">
+                     <div class="card">
+                        <div class="card-body">
+                           <h4 class="card-title title-ex text-center"><mark>TITLE</mark> 1. HEADING</h4>
+                           <h4 class="card-title title-ex text-center"><mark>SUBTITLE</mark> A. HEADING</h4>
+                           <h4 class="card-title title-ex text-center"><mark>CHAPTER</mark> 1. HEADING</h4>
+                           <h4 class="card-title title-ex text-center"><mark>SUBCHAPTER</mark> A. HEADING</h4>
+                           <div class="card-text text-ex">
+                              <p>Sec. 1.01 HEADING. (<mark>Section</mark>)</p>
+                              <p>(a) (<mark>subsection</mark>)</p>
+                              <p class="indent1">(1) (<mark>subdivision</mark>)</p>
+                              <p class="indent2">(A) (<mark>paragraph</mark>)</p>
+                              <p class="indent3">(i) (<mark>subparagraph</mark>)</p>
+                              <p class="indent4">(a) (<mark>sub-subparagraph</mark>)</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <p>Some codes, such as the Code of Criminal Procedure, use articles instead of sections.</p>
+            <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#articles-structure">Example</button>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="collapse" id="articles-structure">
+                     <div class="card">
+                        <div class="card-body">
+                           <h4 class="card-title title-ex text-center">TITLE 1. HEADING</h4>
+                           <h4 class="card-title title-ex text-center">CHAPTER 1. HEADING</h4>
+                           <div class="card-text text-ex">
+                              <p>Art. 1.01 HEADING. (<mark>article</mark>)</p>
+                              <p>(a) (subsection)</p>
+                              <p class="indent1">(1) (subdivision)</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <p>The uncodified statutes found in <em> Vernon's Texas Civil Statutes</em> are less consistently structured but follow organizational schemes similar to these.</p>
+
+            <div class="row align-items-end"><!--PAGINATION-->
+               <div class="col">
+                  <nav aria-label="Page navigation">
+                     <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="home.html">&laquo;</a></li>
+                        <li class="page-item"><a class="page-link" href="home.html">&lt;</a></li>
+                        <li class="page-item"><a class="page-link active" href="Readabill-2.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-3.html">&gt;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-10.html">&raquo;</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div><!--END PAGINATION-->
+
+         </div><!--END TEXT p2-->
+      </div><!--END MAIN row p2-->
+
+      </div><!--END MAIN container-->
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <script>
+         $(function () {
+            $('[data-toggle="popover"]').popover();
+         })
+      </script>
+
+   </body>
+</html>
