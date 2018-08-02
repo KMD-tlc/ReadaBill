@@ -2,23 +2,23 @@
 
 Palette Colors
 --------------
-darker gray (dark visited links):        #151515
-dark gray:                               #3a3a3a
-light gray:                              #c4c3c3
+darker gray:       #151515
+dark gray:         #3a3a3a
+light gray:        #c4c3c3
 
-light green for theme3 & highlight:      #cee79e
+light green:       #cee79e
+medium green:      #567a13
 
-light salmon for theme2
-   & secondary highlight:                #ffd1d0
-medium salmon - with light text          #b86563
+light salmon:      #ffd1d0
+medium salmon:     #b86563
 
-light teal for background & highlight:   #99babc
-medium-light teal - with dark text:      #679496
-medium teal - with light text:           #417c7e
+light teal:        #99babc
+medium-light teal: #679496
+medium teal:       #417c7e
 
-base teal:                               #236467
-base salmon:                             #d16d6b
-base green:                              #7a9e35
+base teal:         #236467
+base salmon:       #d16d6b
+base green:        #7a9e35
 
 */
 
@@ -71,7 +71,7 @@ mark.mark3 {
    background-color: #cee79e;
    padding-top: 8px;
    border-radius: 5px;
-   font-size: 92%;
+   font-size: 1rem;
 }
 
 .nav a:hover {
