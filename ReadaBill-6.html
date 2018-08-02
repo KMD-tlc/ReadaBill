@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+      <link href="ReadaBill-Bootstrap.css" rel="stylesheet">
+      <title>Reading Statutes and Bills - Bootstrap 4 multi-page version</title>
+   </head>
+
+   <body>
+
+      <div class="jumbotron jumbotron-fluid">
+         <div class="container">
+            <div class="row align-items-center justify-content-center">
+               <img src="images/glasses3.svg" height="200px" width="275px">
+               <h1 class="display-4 text-center">Reading Statutes and Bills</h1>
+            </div>
+         </div>
+      </div>
+
+      <div class="container-fluid"><!--MAIN CONTAINER-->
+
+      <div class="row align-items-start"><!--MAIN row p6-->
+
+      <div class="col col-md-3 col-xl-2"><!--NAV-->
+
+         <nav class="nav flex-column justify-content-start text-dark">
+            <ul id="big-nav-1" class="list-unstyled">
+               <li class="nav-item">
+                  <a class="nav-link" href="home.html">Statutes vs Bills</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-statutes">Statutes</a>
+                  <div id="nav-statutes" class="collapse">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link active" href="Readabill-2.html">Collections &amp; Organization</a></li>
+                        <li><a class="nav-link" href="ReadaBill-3.html">Parts of a Statute</a></li>
+                        <li><a class="nav-link" href="ReadaBill-4.html">How to Read a Statute</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-bills">Bills</a>
+                  <div id="nav-bills">
+                     <ul class="nav flex-column list-unstyled justify-content-start text-dark">
+                        <li><a class="nav-link" href="ReadaBill-5.html">Bills Overview</a></li>
+                        <li><a class="nav-link active" href="#">Parts of a Bill-A</a></li>
+                        <li><a class="nav-link" href="ReadaBill-7.html">Parts of a Bill-B</a></li>
+                        <li><a class="nav-link" href="ReadaBill-8.html">How to Read a Bill</a></li>
+                     </ul>
+                  </div>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="ReadaBill-9.html">Putting It All Together</a>
+               </li>
+
+               <li>
+                  <a class="nav-link" href="ReadaBill-10.html">Resources</a>
+               </li>
+            </ul>
+         </nav>
+
+      </div><!--END NAV-->
+
+         <div class="col"><!--TEXT p6-->
+
+            <h3>Parts of a Bill</h3>
+
+            <h4>Introductory Language</h4>
+            <p>The standard features of a bill include the heading, the caption, and the enacting clause, which are referred to collectively as introductory language.</p>
+            <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#intro-lang">Example</button>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="collapse" id="intro-lang">
+                     <div class="card">
+                        <div class="card-body">
+                           <div class="row">
+                              <div class="col-sm-6 justify-content-start card-text text-left text-ex">
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<strong>Heading</strong>">
+                                    <mark>By: Smithee</mark></a>
+                              </div>
+                              <div class="col-sm-6 justify-content-end card-text text-right text-ex">
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="left" data-html="true"
+                                 data-content="<strong>Heading</strong>">
+                                    <mark>H.B. No. 3538</mark></a>
+                              </div>
+                           </div>
+                           <h4 class="card-title title-ex text-center">A BILL TO BE ENTITLED<br>AN ACT</h4>
+                           <div class="card-text text-ex">
+                              <p>
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<strong>Caption</strong>">
+                                    <mark>relating to the adoption of the Uniform Interstate Family Support Act of 2008.</mark></a></p>
+                              <p style="text-indent: 2rem;">
+                                 <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="bottom" data-html="true"
+                                 data-content="<strong>Enacting clause</strong>">
+                                    <mark>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:</mark></a></p>
+                           </div>
+                        </div>
+                        <div class="card-footer card-theme3 text-dark">
+                           <p>Click the highlighted portions to see the different parts of the introductory language.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <ul>
+               <li>
+                  <h5>Heading</h5>
+                  <p>The first line at the top of the first page of every bill is the heading, sometimes referred to as the <strong>byline</strong>. The heading indicates the bill author's name, the chamber in which the bill was introduced (H.B. for a house bill and S.B. for a senate bill), and the bill number.</p>
+               </li>
+
+               <li>
+                  <h5>Caption</h5>
+                  <p>Below the heading is the caption (also known as the <strong>title</strong>), which is required by <a href="http://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.3.htm#3.35">Section 35, Article III, Texas Constitution</a>, to be included in every bill. Since the caption gives legislators and other readers an immediate explanation of the bill's subject matter, it is the most important part of the introductory language. The caption usually includes the phrase "relating to".</p>
+                  <button class="btn btn-theme2" type="button" data-toggle="collapse" data-target="#further-caption">+ More</button>
+
+                  <div class="collapse" id="further-caption">
+                     <div class="card card-theme2 border-dark">
+                        <div class="card-body text-dark">
+                           <div class="card-text">
+                              <p>For a complete discussion of the title or caption, see Section 3.03 of the <a href="http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf"><em>Texas Legislative Council Drafting Manual</em></a>.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+
+               <li>
+                  <h5>Enacting Clause</h5>
+                  <p><a href="http://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.3.htm#3.29">Section 29, Article III</a>, Texas Constitution, requires every bill to include an enacting clause in the exact language shown in the introductory language example, indented, in all capital letters, and ending with a colon.</p>
+               </li>
+            </ul>
+
+            <h4>Substantive Provisions</h4>
+            <p>Since the bill is the vehicle for enactment of law, most bill provisions add, amend, or delete statutory provisions. Following a bill's introductory language are the substantive provisions as discussed in the earlier section <strong>Parts of a Statute</strong>: <a href="ReadaBill-3.html#statute-st">short title</a>, <a href="ReadaBill-3.html#statute-intent">statement of policy or purpose</a>, <a href="ReadaBill-3.html#statute-defs">definitions</a>, <a href="ReadaBill-3.html#statute-op-provs">principal operative provisions</a>, and <a href="ReadaBill-3.html#statute-enf-provs">enforcement provisions</a>.</p>
+            <p>Some of a bill's substantive provisions, however, do not amend a statute section and are discussed below in further detail.</p>
+
+            <ul>
+               <li>
+                  <h5>Short Title</h5>
+                  <p>Some short titles are not introduced as an amendment to a particular statute, but are found only in the bill.</p>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#bill-sh-title">Example</button>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="bill-sh-title">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex">
+                                    <p>SECTION 1. This Act shall be known as Jacob's Law.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+
+               <li>
+                  <h5>Statement of Policy or Purpose</h5>
+                  <p>A statement of policy or purpose may be included when a substantial body of new law is introduced or when the operative provisions of a short bill do not clearly indicate what the bill is intended to accomplish. Like some short titles, some statements of policy or purpose are found only in the bill.</p>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#bill-purpose-st">Example</button>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="bill-purpose-st">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex" style="text-indent:2rem;">
+                                    <p>SECTION 4.01. LEGISLATIVE INTENT OF NO SUBSTANTIVE CHANGE. This Act is enacted under Section 43, Article III, Texas Constitution. This Act is intended as a codification only, and no substantive change in the law is intended by this Act. This Act does not increase or decrease the territory of any special district of the state as those boundaries exist on the effective date of this Act.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+
+               <li>
+                  <h5>Repealers</h5>
+                  <p>Another way bills can amend the law is by repealing existing statutory provisions. A repealer cites the portion of law to be repealed, is typically found near the end of a bill or bill article, and may appear as a bill subsection or an entire bill section.</p>
+                  <p>Be cautious &mdash; repealers can make substantive changes.</p>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#repealers-1">Example 1:<br>Multiple repealers</button>
+                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#repealers-2">Example 2:<br>Repealer section</button>
+                  <button class="btn btn-theme2" type="button" data-toggle="collapse" data-target="#further-repealers">+ More</button>
+
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="repealers-1">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex" style="text-indent:2rem;">
+                                    <p>SECTION 10. The following sections of the Occupations Code are repealed:
+                                       <ul class="list-unstyled">
+                                          <li class="indent2">(1) Section 110.256;</li>
+                                          <li class="indent2">(2) Sections 401.2535(h) and (i); and</li>
+                                          <li class="indent2">(3) Section 402.154(h).</li>
+                                      </ul>
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="repealers-2">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="card-text text-ex" style="text-indent:2rem;">
+                                    <p>SECTION 4. The Automobile Club Services Act (Article 1528d, Vernon's Texas Civil Statutes) is repealed.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="row justify-content-center">
+                     <div class="col-sm-10">
+                        <div class="collapse" id="further-repealers">
+                           <div class="card card-theme2 border-dark">
+                              <div class="card-body text-dark">
+                                 <div class="card-text">
+                                    <p>For a further discussion of repealers, see Section 3.11 of the <a href="http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf"><em>Texas Legislative Council Drafting Manual</em></a>.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </li>
+            </ul>
+
+            <div class="row align-items-end"><!--PAGINATION-->
+               <div class="col">
+                  <nav aria-label="Page navigation">
+                     <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="home.html">&laquo;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-5.html">&lt;</a></li>
+                        <li class="page-item"><a class="page-link active" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-7.html">&gt;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-10.html">&raquo;</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div><!--END PAGINATION-->
+
+         </div><!--END TEXT p6-->
+
+      </div><!--END MAIN row p6-->
+
+      </div><!--END main container-->
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <script>
+         $(function () {
+            $('[data-toggle="popover"]').popover();
+         })
+      </script>
+
+   </body>
+</html>
