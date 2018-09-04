@@ -25,7 +25,7 @@
 
       <div class="row"><!--MAIN row p8-->
 
-         <div class="col col-md-3 col-xl-2"><!--NAV-->
+      <div class="col col-md-3 col-xl-2"><!--NAV-->
 
          <nav class="nav flex-column justify-content-start text-dark">
             <ul id="big-nav-1" class="list-unstyled">
@@ -45,162 +45,186 @@
 
                <li class="nav-item">
                   <a class="nav-link" data-toggle="collapse" data-parent="#big-nav-1" href="#nav-bills">Bills</a>
-                  <div id="nav-bills">
+                  <div id="nav-bills" class="collapse">
                      <ul class="nav flex-column list-unstyled justify-content-start text-dark">
                         <li><a class="nav-link" href="ReadaBill-5.html">Bills Overview</a></li>
-                        <li><a class="nav-link" href="ReadaBill-6.html">Parts of a Bill-A</a></li>
-                        <li><a class="nav-link" href="ReadaBill-7.html">Parts of a Bill-B</a></li>
-                        <li><a class="nav-link active" href="#">How to Read a Bill</a></li>
+                        <li><a class="nav-link" href="ReadaBill-6.html">Parts of a Bill</a></li>
+                        <li><a class="nav-link" href="ReadaBill-7.html">How to Read a Bill</a></li>
                      </ul>
                   </div>
                </li>
 
                <li class="nav-item">
-                  <a class="nav-link" href="ReadaBill-9.html">Putting It All Together</a>
+                  <a class="nav-link active" href="ReadaBill-8">Putting It All Together</a>
                </li>
 
                <li>
-                  <a class="nav-link" href="ReadaBill-10.html">Resources</a>
+                  <a class="nav-link" href="ReadaBill-9.html">Resources</a>
                </li>
             </ul>
          </nav>
 
-         </div><!--END NAV-->
+      </div><!--END NAV-->
 
          <div class="col"><!--TEXT p8-->
 
-            <h3>How to Read a Bill</h3>
-            <p>Scanning the substantive provisions of a bill for certain features can help you learn valuable information quickly.</p>
-            <p>Here are some tips on what to look for:</p>
+            <h3>Putting It All Together</h3>
+            <p>Here are three bills that have been considered by the Texas Legislature, showing examples of underlining and bracketing and discussing points that must be considered when reading and understanding the bills.</p>
+            <div class="row justify-content-center"><p id="examples-instr">Click on the highlighted portions to see comments on the examples.</p></div>
 
-            <ul>
-               <li>
-                  <h4>Check to see if the bill is adding new language, amending existing language, or both.</h4>
-                  <p>Look for underlined or bracketed language with strike-throughs. (In the session laws, new language is indicated by <em>italics</em> rather than underlining.) Simply noticing the amount and placement of underlined or italicized text and bracketed text will give you an idea of the bill's complexity.</p>
-               </li>
-
-               <li>
-                  <h4>Look for definitions.</h4>
-                  <p>Definitions can help determine the scope of a bill and provide clues about its focus. What agencies or entities are involved? Is the bill directed at a particular group?</p>
-               </li>
-
-               <li>
-                  <h4>Scan the recital for each bill section.</h4>
-                  <p>Is the bill adding or amending just one section or article of the statutes? Is it adding or amending a subsection? Is it adding an entire subchapter or chapter? Is it making a series of similar changes to sections in different codes or different chapters of one code?</p>
-               </li>
-
-               <li>
-                  <h4>Look for conforming changes.</h4>
-                  <p>Often a bill makes a single substantive change to the law that makes related changes necessary in other sections of law. These related changes, known as <strong>conforming changes</strong>, are often easy to spot because they involve multiple insertions or deletions of the same words or phrases. For example, if the name of an agency is changed, every reference to the agency throughout the codes must be changed to conform to the new name.</p>
-                  <p>Identify such changes and move on. Don't spend time examining every instance of a revision that is not substantively changing the statute.</p>
-               </li>
-
-               <li>
-                  <h4>Check for repealers.</h4>
-                  <p>Read the provisions that the bill repeals. Do the repealers represent conforming or substantive changes? Is the bill replacing one chapter or subchapter with another?</p>
-               </li>
-
-               <li>
-                  <h4>Refer to the surrounding sections of the statute to put the bill or bill section in context.</h4>
-                  <p>Understanding the context of the change to law made by the bill is essential to understanding the change.</p>
-                  <p>Consider the following example:</p>
-                  <button class="btn btn-ex" type="button" data-toggle="collapse" data-target="#permit-fee-A">Example</button>
-
-                  <div class="row justify-content-center">
-                     <div class="col-sm-10">
-                        <div class="collapse multi-collapse" id="permit-fee-A">
-                           <div class="card">
-                              <div class="card-body">
-                                 <div class="card-text text-ex" style="text-indent:2rem;">
-                                    <p>Sec. 214.194. MUNICIPAL PERMIT FEE GENERALLY. (a) If a municipality adopts an ordinance that requires a person to pay an annual fee to obtain a permit from the municipality before the person may use an alarm system in the municipality, the fee shall be used for the general administration of this subchapter ....</p>
-                                    <p><mark>(b)</mark> A municipal permit fee imposed under this section may not exceed the rate of $50 a year for a residential location.</p>
-                                 </div>
-                              </div>
-                              <div class="card-footer text-dark" style="background-color:#cee79e">
-                                 <p>From an initial reading of the example, the fee information in Subsection (b) appears transparent. The alarm system permit fee charged by a municipality may not be more than $50 per year.</p>
-                                 <p>However, the context provided by the surrounding statutes is key to accurately understanding the permit fee.</p>
-                                 <button class="btn btn-theme3" type="button" data-toggle="collapse" data-target="#permit-fee-B">Continue &rarr;</button>
-                              </div>
-                           </div>
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="card" id="example1">
+                     <div class="card-header card-theme1">
+                        <h4>Example 1</h4>
+                        <p>The change illustrated by this bill is fairly simple.</p>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-text text-ex">
+                           <h4 class="card-title title-ex text-center">AN ACT</h4>
+                           <p>
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<p>The <strong>caption</strong> establishes that the bill relates to who is considered a peace officer in Texas law.</p>">
+                                 <mark class="mark3">relating to the designation of certain fire marshals and related officers, inspectors, and investigators as peace officers.</mark>
+                              </a>
+                           </p>
+                           <p class="indent1">BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:</p>
+                           <p style="text-indent:2rem;">SECTION 1. Article 2.12, Code of Criminal Procedure, is amended to read as follows:</p>
+                           <p style="text-indent:2rem;">
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<p>The <strong>amended statute</strong> is a list of persons considered peace officers.</p>">
+                                 <mark class="mark3">Art. 2.12. WHO ARE PEACE OFFICERS. The following are peace officers:</mark>
+                              </a>
+                           </p>
+                           <p style="text-indent:4rem;">(1) sheriffs, their deputies, and those reserve deputies who hold a permanent peace officer license issued under Chapter 1701, Occupations Code;</p>
+                           <p style="text-indent:4rem;">...</p>
+                           <p style="text-indent:4rem;">(34) officers commissioned by the State Board of Dental Examiners under Section 254.013, Occupations Code, subject to the limitations imposed by that section; [<span class="deleted">and</span>]</p>
+                           <p style="text-indent:4rem;">(35) investigators commissioned by the Texas Juvenile Probation Commission as officers under Section 141.055, Human Resources Code<span class="added"><mark class="mark3">; and</mark></span></p>
+                           <p class="added" style="text-indent:4rem;">
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus" data-placement="right" data-html="true"
+                                 data-content="The <strong>underlining</strong> should immediately indicate that persons are being added to the list.">
+                                 <mark class="mark3">(36) the fire marshal and any related officers, inspectors, or investigators commissioned by a county under Subchapter B, Chapter 352, Local Government Code.</mark>
+                              </a>
+                           </p>
+                           <p style="text-indent:2rem;">SECTION 2. This Act takes effect immediately if it receives a vote of two-thirds of all the members elected to each house, as provided by Section 39, Article III, Texas Constitution. If this Act does not receive the vote necessary for immediate effect, this Act takes effect September 1, 2009.</p>
                         </div>
                      </div>
-                  </div>
-
-                  <div class="row justify-content-center">
-                     <div class="col-sm-10">
-                        <div class="collapse multi-collapse" id="permit-fee-B">
-                           <div class="card">
-                              <div class="card-body">
-                                 <h4 class="card-title title-ex text-center">SUBCHAPTER F. BURGLAR ALARM SYSTEMS IN CERTAIN MUNICIPALITIES WHOLLY LOCATED IN CERTAIN COUNTIES</h4>
-                                 <div class="card-text text-ex">
-                                    <div class="row justify-content-start">
-                                       <div class="col-sm-3">Sec. 214.191.</div>
-                                       <div class="col-sm-9">DEFINITIONS</div>
-                                    </div>
-                                    <div class="row justify-content-start">
-                                       <div class="col-sm-3"><mark class="secondary">Sec. 214.1915.</mark></div>
-                                       <div class="col-sm-9"><mark class="secondary">APPLICABILITY</mark></div>
-                                    </div>
-                                    <div class="row justify-content-start">
-                                       <div class="col-sm-3">Sec. 214.192.</div>
-                                       <div class="col-sm-9">CATEGORIES OF ALARM SYSTEMS</div>
-                                    </div>
-                                    <div class="row justify-content-start">
-                                       <div class="col-sm-3">Sec. 214.193.</div>
-                                       <div class="col-sm-9">DURATION OF MUNICIPAL PERMIT</div>
-                                    </div>
-                                    <div class="row justify-content-start">
-                                       <div class="col-sm-3"><mark>Sec. 214.194.</mark></div>
-                                       <div class="col-sm-9"><mark>MUNICIPAL PERMIT FEE GENERALLY</mark></div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="card-footer card-theme2 text-dark">
-                                 <p>A look at the surrounding headings shows that Sec. 214.194, which describes the permit fee in question, is part of Subchapter F. Of particular note is Sec. 214.1915, relating to the applicability of Subchapter F.</p>
-                                 <button class="btn btn-theme2" type="button" data-toggle="collapse" data-target="#permit-fee-C">Continue &rarr;</button>
-                              </div>
-                           </div>
-                        </div>
+                     <div class="card-footer card-theme1">
+                        <p>In essence, the bill amends the Code of Criminal Procedure to include among those considered peace officers the fire marshal and any related officers, inspectors, or investigators appropriately commissioned by a county.</p>
                      </div>
                   </div>
+               </div>
+            </div>
 
-                  <div class="row justify-content-center">
-                     <div class="col-sm-10">
-                        <div class="collapse multi-collapse" id="permit-fee-C">
-                           <div class="card">
-                              <div class="card-body">
-                                 <div class="card-text text-ex" style="text-indent:2rem;">
-                                    <p>Sec. 214.1915. APPLICABILITY. This subchapter applies only to a municipality with a population of less than 100,000 that is located wholly in a county with a population of less than 500,000.</p>
-                                 </div>
-                              </div>
-                              <div class="card-footer card-theme2 text-dark">
-                                 <p>Only by referring to this related section does the reader discover that Sec. 214.1915 limits the applicability of Subchapter F &mdash; including the permit fee in Sec. 214.194(b) &mdash; to certain municipalities.</p>
-                                 <button class="btn btn-theme2" type="button" data-toggle="collapse" data-target="#permit-fee-D">Continue &rarr;</button>
-                              </div>
-                           </div>
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="card" id="example2">
+                     <div class="card-header card-theme2-dk">
+                        <h4>Example 2</h4>
+                        <p>First, scan the caption and the section heading to Section 105.052, Alcoholic Beverage Code.</p>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-text text-ex">
+                           <h4 class="card-title title-ex text-center">A BILL TO BE ENTITLED <br>AN ACT</h4>
+                           <p>
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<p>The <strong>caption</strong> tells you that the bill affects the hours for the wholesale delivery or sale of beer in certain counties. You may infer from this that the bill either extends or reduces those hours.</p>">
+                                 <mark class="secondary">relating to the hours for the wholesale delivery or sale of beer in certain counties.</mark></a></p>
+                           <p class="indent1">BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:</p>
+                           <p style="text-indent:2rem;">SECTION 1. Chapter 105, Alcoholic Beverage Code, is amended by adding Section 105.052 to read as follows:</p>
+                           <p class="added" style="text-indent:2rem;">
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus" data-placement="left" data-html="true"
+                                 data-content='<p>The word "certain" in the caption and the <strong>section heading</strong> is a key word alerting you to the fact that the bill does not affect all counties and that those counties affected are defined or described in the bill.</p>
+                                               <button'>
+                                 <mark class="secondary">Sec. 105.052. SALE OF BEER BY DISTRIBUTOR’S LICENSEE IN CERTAIN METROPOLITAN AREAS.</mark>
+                              </a>
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content='<p>The <strong>added statutory language</strong> begins with "[i]n addition to the hours . . . ." Clearly the bill is extending the hours during which wholesale delivery or sale of beer can occur.</p>'>
+                                 <mark class="secondary">In addition to the hours specified for the sale of beer</mark>
+                              </a>
+                              in <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="bottom" data-html="true"
+                                 data-content='<p>Note that the new hours are in addition to the hours specified in <strong>Section 105.05(b)</strong>. When you read for comprehension, you should read that section to obtain the context for the changes made by the bill.</p>
+                                 <button class="btn btn-sm btn-theme1" type="button" data-toggle="collapse" data-target="#example2-xref">Open Sec.105.05(b) below</button>'>
+                                 <mark class="secondary">Section 105.05(b)</mark></a>,
+                              the holder of a general, local, or branch distributor’s license whose premises is located in a county with a population of 1.8 million or more or in a county adjacent to a county with a population of 1.8 million or more may sell, offer for sale, or deliver beer beginning at 4 a.m. on any day except Sunday.</p>
+                           <p style="text-indent:2rem;">SECTION 2. This Act takes effect immediately if it receives a vote of two-thirds of all the members elected to each house, as provided by Section 39, Article III, Texas Constitution. If this Act does not receive the vote necessary for immediate effect, this Act takes effect September 1, 2007.</p>
                         </div>
                      </div>
-                  </div>
-
-                  <div class="row justify-content-center">
-                     <div class="col-sm-10">
-                        <div class="collapse multi-collapse" id="permit-fee-D">
-                           <div class="card card-theme3 text-dark">
-                              <div class="card-header">
-                                 <h6>A precise description of Sec. 214.194(b) would read as follows:</h6>
-                              </div>
-                              <div class="card-body">
-                                 <div class="card-text">
-                                    <p>The alarm system permit fee charged by a municipality with a population of less than 100,000 that is located wholly in a county with a population of less than 500,000 may not be more than $50 per year.</p>
-                                    <button class="btn btn-theme3" type="button" data-toggle="collapse" data-target=".multi-collapse">Close example</button>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+                     <div class="card-footer card-theme2-dk">
+                        <p>In summary, the bill amends the Alcoholic Beverage Code to authorize the holder of a general, local, or branch distributor's license whose premises is located in a county with a population of at least 1.8 million or in a county adjacent to such a county to sell or deliver beer beginning at 4 a.m. on any day except Sunday. This is in addition to any other period during which the sale or delivery of beer is authorized.</p>
                      </div>
                   </div>
-               </li>
-            </ul>
+               </div>
+            </div>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="card collapse" id="example2-xref">
+                     <div class="card-header card-theme3 text-dark">
+                        <h5>Section 105.05(b), Alcoholic Beverage Code</h5>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-text text-ex">
+                           <p style="text-indent:2rem;">(b) A person may sell, offer for sale, or deliver beer between 7 a.m. and midnight on any day except Sunday. On Sunday he may sell beer between midnight and 1:00 a.m. and between noon and midnight, except that permittees or licensees authorized to sell for on-premise consumption may sell beer between 10:00 a.m. and noon if the beer is served to a customer during the service of food to the customer.</p>
+                        </div>
+                     </div>
+                     <div class="card-footer card-theme3 text-dark">
+                        <button class="btn btn-sm btn-theme1" type="button" data-toggle="collapse" data-target="#example2-xref">X</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row justify-content-center">
+               <div class="col-sm-10">
+                  <div class="card" id="example3">
+                     <div class="card-header card-theme3-dk">
+                        <h4>Example 3</h4>
+                     </div>
+                     <div class="card-body">
+                        <div class="card-text text-ex">
+                           <h4 class="card-title title-ex text-center">A BILL TO BE ENTITLED <br>AN ACT</h4>
+                           <p><a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus" data-placement="right" data-html="true"
+                                 data-content="<p>The <strong>caption</strong> explains that the bill relates to the payment of damages awarded against certain members of local governments.</p>">
+                              <mark>relating to the payment of damages awarded against members of local governments, including directors of soil and water conservation districts.</mark></a></p>
+                           <p class="indent1">BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:</p>
+                           <p style="text-indent:2rem;">SECTION 1. Section 102.001, Civil Practice and Remedies Code, is amended to read as follows:</p>
+                           <p style="text-indent:2rem;">
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<p>The bill achieves its purpose by amending the <strong>definitions</strong> section of <a href='http://www.statutes.legis.state.tx.us/Docs/CP/htm/CP.102.htm'>Chapter 102</a>, Civil Practice and Remedies Code. To fully understand the bill, you need to scan that chapter. What are the damages to which the bill refers? What is the subject matter of Chapter 102? Look up the chapter and, at the very least, read through the subchapter and section headings.</p>">
+                                 <mark>Sec. 102.001. DEFINITIONS.</mark></a> In this chapter:</p>
+                           <p style="text-indent:4rem;">(1) “Employee” includes an officer, volunteer, or employee, a former officer, volunteer, or employee, and the estate of an officer, volunteer, or employee or former officer, volunteer, or employee of a local government. <span class="added">The term includes a member of a governing board.</span> The term does not include a county extension agent.</p>
+                           <p style="text-indent:4rem;">(2) “Local government” means a county, city, town, special purpose district, <span class="added">including a soil and water conservation district,</span> and any other political subdivision of the state.</p>
+                           <p style="text-indent:2rem;">SECTION 2.
+                              <a tabindex="0" role="button" data-toggle="popover"
+                                 data-trigger="focus"
+                                 data-placement="right" data-html="true"
+                                 data-content="<p>The <strong>statement of intent</strong> in SECTION 2 makes clear that the bill is not actually making a change in the law. This is a rare example in which the bill's single purpose is to clarify the law.</p>">
+                                 <mark>The amendment by this Act of Section 102.001, Civil Practice and Remedies Code, is intended to clarify rather than change the existing law.</mark></a></p>
+                           <p style="text-indent:2rem;">SECTION 3. This Act takes effect immediately if it receives a vote of two-thirds of all the members elected to each house, as provided by Section 39, Article III, Texas Constitution. If this Act does not receive the vote necessary for immediate effect, this Act takes effect September 1, 2007.</p>
+                        </div>
+                     </div>
+                     <div class="card-footer card-theme3-dk">
+                        <p>The bill clarifies that the authority of a local government to pay actual damages awarded against one of its employees and to provide legal counsel in a suit for such damages may be exercised by a soil and water conservation district on behalf of a member of the district's governing board.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
             <div class="row align-items-end"><!--PAGINATION-->
                <div class="col">
@@ -210,7 +234,7 @@
                         <li class="page-item"><a class="page-link" href="Readabill-7.html">&lt;</a></li>
                         <li class="page-item"><a class="page-link active" href="#">8</a></li>
                         <li class="page-item"><a class="page-link" href="Readabill-9.html">&gt;</a></li>
-                        <li class="page-item"><a class="page-link" href="Readabill-10.html">&raquo;</a></li>
+                        <li class="page-item"><a class="page-link" href="Readabill-9.html">&raquo;</a></li>
                      </ul>
                   </nav>
                </div>
